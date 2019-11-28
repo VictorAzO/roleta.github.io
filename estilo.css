@@ -1,0 +1,101 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+.pinca {
+	height: 70px;
+	width: 15px;
+	background-color: #aaa;
+	margin: auto;
+	position: relative;
+	top: 10px;
+	border-radius: 0px 0px 8px 8px;
+	border: 1px solid #000;
+	border-top: 5px solid #000;
+	z-index: 1000;
+}
+
+img {
+	z-index: 100;
+	top: 27%;
+	transition: all 5s
+}
+
+ 
+
+#dinheiro {
+	position: absolute;
+	color: white;
+	font-size: 40px;
+	padding: 20px;
+}
+
+
+#valor_aposta{
+	position: absolute;
+	font-size: 20px;
+	width:9%;
+	padding: 30px;
+	top: 18%;
+	left: 11%
+}
+
+
+#texto_aposta{
+	position: absolute;
+	color: white;
+	font-size: 34px;
+	width:9%;
+	padding: 20px;
+	top: 15%;
+	left: 0%  	
+}
+
+
+#enter_vermelho{
+	position: absolute;
+	color: red;
+	font-size: 20px;
+	width:9%;
+	padding: 20px;
+	top: 50%;
+	left: 16%  	
+}
+
+
+#enter_preto{
+	position: absolute;
+	color: black;
+	font-size: 20px;
+	width:9%;
+	padding: 20px;
+	top: 50%;
+	left: 4%  	
+}
+
+#fundo{
+	background-image: url("./verde.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#texto_regra{
+	position: absolute;
+	color: white;
+	font-size: 34px;
+	width:30%;
+	padding: 20px;
+	top: 47%;
+	left: 69%  
+}
+
+#texto_Manual{
+	position: absolute;
+	color: white;
+	font-size: 34px;
+	width:30%;
+	padding: 20px;
+	top: 2%;
+	left: 69%  
+}
